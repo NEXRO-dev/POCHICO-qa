@@ -59,12 +59,12 @@ header h1 {
 
 /* メインコンテンツ */
 main {
-    padding: 8rem 0 5rem 0;
+    padding: 6rem 0 4rem 0;
 }
 
 /* FAQ セクション */
 .faq-section {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 /* FAQ項目コンテナ */
@@ -81,7 +81,7 @@ main {
 .faq-item {
     border-bottom: 1px solid #e2e8f0;
     transition: all 0.3s ease;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 .faq-item:last-child {
@@ -98,7 +98,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem;
+    padding: 2rem;
     cursor: pointer;
     transition: all 0.3s ease;
     border-left: 4px solid transparent;
@@ -148,8 +148,8 @@ main {
 }
 
 .answer.active {
-    max-height: 1500px;
-    padding: 12.5rem;
+    max-height: 300px;
+    padding: 2rem;
     border-left: 4px solid #667eea;
 }
 
@@ -163,14 +163,14 @@ main {
 
 /* お問い合わせセクション */
 .contact-section {
-    margin-top: 30rem;
-    margin-bottom: 25rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
 }
 
 .contact-box {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
-    padding: 20rem 15rem;
+    padding: 3rem 2rem;
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
@@ -180,14 +180,14 @@ main {
 .contact-box h2 {
     font-size: 1.8rem;
     color: #2d3748;
-    margin-bottom: 7.5rem;
+    margin-bottom: 1.5rem;
     font-weight: bold;
 }
 
 .contact-box p {
     font-size: 1.1rem;
     color: #4a5568;
-    margin-bottom: 12.5rem;
+    margin-bottom: 2rem;
     line-height: 1.6;
 }
 
@@ -247,7 +247,7 @@ footer {
     }
     
     .question {
-        padding: 2rem;
+        padding: 1.5rem;
         border-left-width: 3px;
     }
     
@@ -285,7 +285,7 @@ footer {
     }
     
     main {
-        padding: 6rem 0 4rem 0;
+        padding: 4rem 0 3rem 0;
     }
 }
 
@@ -411,7 +411,7 @@ footer {
     }
     
     main {
-        padding: 3rem 0 1.5rem 0;
+        padding: 3rem 0 2rem 0;
     }
 }
 
